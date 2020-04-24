@@ -1,0 +1,22 @@
+.context-menu-item{
+  display: flex;
+  align-items: center;
+  background-color: var(--bg);
+  padding: 6px;
+  border-radius: 4px;
+  transition: background-color 0.5s ease;
+  min-height: 60px;
+  cursor: pointer;
+}
+
+.context-menu-item:hover{
+  background-color: var(--bg-accent);
+}
+
+.context-menu-item__left{
+  margin-right: 8px;
+}
+
+.context-menu-item__center{
+  flex-grow: 1;
+}

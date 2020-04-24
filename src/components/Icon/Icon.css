@@ -1,0 +1,20 @@
+.icon{
+  --icon-size: calc(60px * 0.7);
+  width: var(--icon-size);
+  height: var(--icon-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-accent);
+  border-radius: 50%;
+}
+
+.icon > svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-color);
+}
+
+.icon.icon__transparent {
+  background-color: transparent;
+}

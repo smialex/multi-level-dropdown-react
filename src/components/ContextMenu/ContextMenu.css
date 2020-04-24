@@ -1,0 +1,38 @@
+.context-menu{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 4px;
+  position: absolute;
+  width: 100%;
+}
+
+.left-menu-enter {
+  transform: translateX(-100%);
+}
+.left-menu-enter-active {
+  transform: translateX(0);
+  transition: transform .3s;
+}
+.left-menu-exit {
+  transform: translateX(0);
+}
+.left-menu-exit-active {
+  transform: translateX(-100%);
+  transition: transform .3s;
+}
+
+.right-menu-enter {
+  transform: translateX(100%);
+}
+.right-menu-enter-active {
+  transform: translateX(0);
+  transition: transform .3s;
+}
+.right-menu-exit {
+  transform: translateX(0);
+}
+.right-menu-exit-active {
+  transform: translateX(100%);
+  transition: transform .3s;
+}
