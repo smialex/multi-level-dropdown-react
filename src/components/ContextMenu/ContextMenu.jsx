@@ -22,7 +22,6 @@ const SubContextMenu = ({children, onClose, onChangeHeight}) => {
   }, [onClose])
 
   const onEnter = useCallback(el => {
-    console.log(el.offsetHeight);
     onChangeHeight && onChangeHeight(el.offsetHeight);
   }, [onChangeHeight]);
 
@@ -70,7 +69,6 @@ export const ContextMenu= ({children}) => {
   }, []);
 
   const onChangeHeight = useCallback(height => {
-    console.log(height);
     setDropdownHeight(height)
   }, []);
 

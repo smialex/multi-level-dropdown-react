@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton component should be rander IconButton component 1`] = `
+<button
+  className="icon-button"
+>
+  <div
+    className="icon "
+  />
+</button>
+`;
+
+exports[`IconButton component should rander IconButton component 1`] = `
+<button
+  className="icon-button"
+>
+  <div
+    className="icon "
+  />
+</button>
+`;
+
+exports[`IconButton component should render IconButton component 1`] = `
+<button
+  className="icon-button"
+>
+  <div
+    className="icon "
+  />
+</button>
+`;

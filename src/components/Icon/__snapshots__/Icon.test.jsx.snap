@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component render correctly Icon component 1`] = `
+<div
+  className="icon "
+/>
+`;
+
+exports[`Icon render correctly Icon component 1`] = `
+<div
+  className="icon "
+/>
+`;
